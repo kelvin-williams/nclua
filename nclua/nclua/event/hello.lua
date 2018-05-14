@@ -1,7 +1,7 @@
 local hello_c = require('nclua.event.hello_c');
 
 local AUX = {}
--- Função do ciclo "Hello" "I'm here"
+
 function listenForHello()
 
 	local hello = hello_c._hello()	
