@@ -1,0 +1,87 @@
+make  all-recursive
+make[1]: Entering directory '/home/osboxes/Desktop/nclua'
+Making all in lib
+make[2]: Entering directory '/home/osboxes/Desktop/nclua/lib'
+make  all-am
+make[3]: Entering directory '/home/osboxes/Desktop/nclua/lib'
+  CC       gstnclua_la-gstnclua.lo
+  CC       libnclua_la-nclua.lo
+  CC       libnclua_la-ncluaw.lo
+  CCLD     libnclua.la
+  CCLD     gstnclua.la
+make[3]: Leaving directory '/home/osboxes/Desktop/nclua/lib'
+make[2]: Leaving directory '/home/osboxes/Desktop/nclua/lib'
+Making all in nclua
+make[2]: Entering directory '/home/osboxes/Desktop/nclua/nclua'
+Making all in event
+make[3]: Entering directory '/home/osboxes/Desktop/nclua/nclua/event'
+make[3]: Leaving directory '/home/osboxes/Desktop/nclua/nclua/event'
+make[3]: Entering directory '/home/osboxes/Desktop/nclua/nclua'
+make[3]: Leaving directory '/home/osboxes/Desktop/nclua/nclua'
+make[2]: Leaving directory '/home/osboxes/Desktop/nclua/nclua'
+Making all in src
+make[2]: Entering directory '/home/osboxes/Desktop/nclua/src'
+  CC       nclua-nclua.o
+  CCLD     nclua
+make[2]: Leaving directory '/home/osboxes/Desktop/nclua/src'
+Making all in tests
+make[2]: Entering directory '/home/osboxes/Desktop/nclua/tests'
+  CC       libnclua-echo.o
+  CCLD     libnclua-echo
+  CCLD     lua
+make[2]: Leaving directory '/home/osboxes/Desktop/nclua/tests'
+make[2]: Entering directory '/home/osboxes/Desktop/nclua'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/home/osboxes/Desktop/nclua'
+make[1]: Leaving directory '/home/osboxes/Desktop/nclua'
+make  all-recursive
+make[1]: Entering directory '/home/osboxes/Desktop/nclua'
+Making all in lib
+make[2]: Entering directory '/home/osboxes/Desktop/nclua/lib'
+make  all-am
+make[3]: Entering directory '/home/osboxes/Desktop/nclua/lib'
+  CC       gstnclua_la-gstnclua.lo
+  CC       libnclua_la-nclua.lo
+  CC       libnclua_la-ncluaw.lo
+  CCLD     libnclua.la
+  CCLD     gstnclua.la
+make[3]: Leaving directory '/home/osboxes/Desktop/nclua/lib'
+make[2]: Leaving directory '/home/osboxes/Desktop/nclua/lib'
+Making all in nclua
+make[2]: Entering directory '/home/osboxes/Desktop/nclua/nclua'
+Making all in event
+make[3]: Entering directory '/home/osboxes/Desktop/nclua/nclua/event'
+  CC       http_soup_la-http_soup.lo
+  CCLD     http_soup.la
+  CC       stopwatch_la-stopwatch.lo
+  CCLD     stopwatch.la
+  CC       tcp_socket_la-tcp_socket.lo
+  CCLD     tcp_socket.la
+make[3]: Leaving directory '/home/osboxes/Desktop/nclua/nclua/event'
+make[3]: Entering directory '/home/osboxes/Desktop/nclua/nclua'
+  CC       canvas_la-canvas.lo
+  CCLD     canvas.la
+  CC       dir_la-dir.lo
+  CCLD     dir.la
+make[3]: Leaving directory '/home/osboxes/Desktop/nclua/nclua'
+make[2]: Leaving directory '/home/osboxes/Desktop/nclua/nclua'
+Making all in src
+make[2]: Entering directory '/home/osboxes/Desktop/nclua/src'
+  CC       nclua-nclua.o
+  CCLD     nclua
+  CC       nclua_gst-nclua-gst.o
+  CCLD     nclua-gst
+make[2]: Leaving directory '/home/osboxes/Desktop/nclua/src'
+Making all in tests
+make[2]: Entering directory '/home/osboxes/Desktop/nclua/tests'
+  CC       tests0_la-tests0.lo
+  CCLD     tests0.la
+  CC       libnclua-echo.o
+  CCLD     libnclua-echo
+  CC       lua.o
+  CCLD     lua
+make[2]: Leaving directory '/home/osboxes/Desktop/nclua/tests'
+make[2]: Entering directory '/home/osboxes/Desktop/nclua'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/home/osboxes/Desktop/nclua'
+make[1]: Leaving directory '/home/osboxes/Desktop/nclua'

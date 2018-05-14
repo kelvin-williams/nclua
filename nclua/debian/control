@@ -1,0 +1,20 @@
+Source: nclua
+Maintainer: Álan Livio <alan@telemidia.puc-rio.br>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 9), dpkg-dev, dh-autoreconf, libltdl-dev, liblua5.2-dev, libglib2.0-dev, libcairo2-dev, libpango1.0-dev, libgtk-3-dev
+Homepage: http://github.com/telemidia/nclua
+
+Package: nclua
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description:  This is the NCLua library, libnclua.  The NCLua library adds
+ event handling and 2D graphics to Lua scripts.  Programs written in C can
+ use libnclua to run embedded NCLua scripts, i.e., Lua scripts that use the
+ APIs exported by libnclua; Lua scripts can also use libnclua, either
+ through the C API or by requiring the appropriated modules -- e.g.,
+ 'canvas' for 2D graphics, 'event' for general event handling,
+ 'event.stopwatch' for stopwatch timers, 'event.socket' for asynchronous
+ sockets, etc.  The NCLua library comes with a standalone interpreter,
+ called nclua (cf. src/nclua.c), which can be used to run NCLua scripts.
